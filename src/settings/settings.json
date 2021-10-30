@@ -1,0 +1,4 @@
+{
+  "port": 4199,
+  "AllowedDomains":  ["http://localhost:8100", "http://localhost:4200"]
+}

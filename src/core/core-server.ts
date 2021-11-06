@@ -22,7 +22,7 @@ export class CoreServer {
         this.server = http.createServer(this.express);
         this.io = new Server(this.server, {
             cors: {
-                origin: settings.AllowedDomains,
+                origin: "*",
                 credentials: true
             },
             allowEIO3: true

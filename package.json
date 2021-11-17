@@ -8,7 +8,7 @@
     "build": "tsc",
     "build & run": "tsc && node dist/out-tsc/main-app.js",
     "postbuild": "copy package.json dist\\out-tsc\\package.json && copy package-lock.json dist\\out-tsc\\package-lock.json",
-    "postbuild_n": "copy package.json dist\\out-tsc\\package.json && copy package-lock.json dist\\out-tsc\\package-lock.json && cd dist/out-tsc && npm ci --productio"
+    "postbuild_n": "copy package.json dist\\out-tsc\\package.json && copy package-lock.json dist\\out-tsc\\package-lock.json && cd dist/out-tsc && npm ci --production"
   },
   "author": "programacion@ci24.com",
   "license": "ISC",
